@@ -1,7 +1,7 @@
-testing:
-  parameter: Jag heter {name}.
-  pluralization: Jag har {dogCount} {dogCount, plural, one {hund} other {hundar}}.
 core:
+  testing:
+    parameter: Jag heter {name}.
+    pluralization: Jag har {dogCount} {dogCount, plural, one {hund} other {hundar}}.
   err404:
     backToHomePage: Tillbaka till startsidan
     pageNotFound: Sidan hittades inte
