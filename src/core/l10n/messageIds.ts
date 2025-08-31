@@ -2,8 +2,8 @@ import { m, makeMessages } from 'core/i18n';
 
 export default makeMessages('core', {
   testing: {
-    parameter: m('My name is {name}.'),
-    pluralization: m(
+    parameter: m<{ name: string }>('My name is {name}.'),
+    pluralization: m<{ dogCount: number }>(
       'I have {dogCount} {dogCount, plural, one {dog} other {dogs}}.',
     ),
   },
