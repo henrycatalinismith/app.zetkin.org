@@ -1,3 +1,6 @@
+testing:
+  parameter: Jag heter {name}.
+  pluralization: Jag har {dogCount} {dogCount, plural, one {hund} other {hundar}}.
 core:
   err404:
     backToHomePage: Tillbaka till startsidan
